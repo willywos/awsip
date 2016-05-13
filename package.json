@@ -1,6 +1,6 @@
 {
   "name": "awsip",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gets the IP Addresses of all the ec2 instances in a region.",
   "main": "awsip.js",
   "repository": {

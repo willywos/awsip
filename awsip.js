@@ -39,8 +39,8 @@ var table = grid.set(8, 0, 4, 12, contrib.table, {
   width: '100%',
   height: '30%',
   border: {type: "line", fg: "cyan"},
-  columnSpacing: 40,
-  columnWidth: [20, 12, 60, 12, 60]
+  columnSpacing: 10,
+  columnWidth: [10, 10, 60, 12, 60]
 });
 
 table.focus();
