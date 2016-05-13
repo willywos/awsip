@@ -1,0 +1,27 @@
+{
+  "name": "awsip",
+  "version": "0.0.1",
+  "description": "Gets the IP Addresses of all the ec2 instances in a region.",
+  "main": "awsip.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willywos/awsip.git"
+  },
+  "keywords": [
+    "EC2",
+    "AWS",
+    "IP",
+    "Addresses"
+  ],
+  "bin": {
+    "awsip": "./bin/awsip"
+  },
+  "preferGlobal": true,
+  "author": "willywos",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.3.11",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^3.5.5"
+  }
+}
