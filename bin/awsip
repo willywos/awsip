@@ -1,1 +1,3 @@
-../awsip.js
+#!/usr/bin/env node
+
+require("../awsip.js");
